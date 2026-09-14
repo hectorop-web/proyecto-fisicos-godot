@@ -1,0 +1,46 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dtbxunpaypnot"]
+
+[ext_resource type="Texture2D" uid="uid://dikaop4nchj18" path="res://assets/sprites/mago_spritesheet.png" id="1_puqy4"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wrran"]
+atlas = ExtResource("1_puqy4")
+region = Rect2(0, 0, 16, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bqx44"]
+atlas = ExtResource("1_puqy4")
+region = Rect2(16, 0, 16, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h7c7a"]
+atlas = ExtResource("1_puqy4")
+region = Rect2(32, 0, 16, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7o3je"]
+atlas = ExtResource("1_puqy4")
+region = Rect2(48, 0, 16, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8htj6"]
+atlas = ExtResource("1_puqy4")
+region = Rect2(64, 0, 16, 20)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wrran")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bqx44")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h7c7a")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7o3je")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8htj6")
+}],
+"loop": 1,
+"name": &"run",
+"speed": 10.0
+}]
