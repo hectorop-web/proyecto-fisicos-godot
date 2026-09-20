@@ -3,7 +3,6 @@
 [ext_resource type="PackedScene" uid="uid://pha6ppbqkk3c" path="res://ecenas/bordes/bordes.tscn" id="1_pg3q4"]
 [ext_resource type="TileSet" uid="uid://yqbe5krk7f4h" path="res://tileset/mazmorra.tres" id="2_qfcr6"]
 [ext_resource type="PackedScene" uid="uid://6jvrreu22l6m" path="res://ecenas/personaje/personaje.tscn" id="3_0ruwa"]
-[ext_resource type="Script" uid="uid://d04jwaf1xsash" path="res://ecenas/personaje/personaje.gd" id="4_12lsl"]
 
 [node name="Nivel1" type="Node2D" unique_id=1408723838]
 
@@ -19,4 +18,3 @@ tile_set = ExtResource("2_qfcr6")
 
 [node name="Personaje" parent="." unique_id=1099182927 instance=ExtResource("3_0ruwa")]
 position = Vector2(101, 97)
-script = ExtResource("4_12lsl")

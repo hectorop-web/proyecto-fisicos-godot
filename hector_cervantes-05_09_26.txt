@@ -1,5 +1,5 @@
 Repositorio de GitHub:
 
-https://github.com/DaniMendoza-4/mago-mazmorra.git
+https://github.com/hectorop-web/mago-mazmorra.git
 
-Jose  Daniel  Mendoza.
+Hector Cervantes.
